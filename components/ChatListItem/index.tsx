@@ -1,26 +1,39 @@
 import React from "react";
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, TouchableWithoutFeedback } from "react-native";
 import { ChatRoom } from "../../types";
 import styles from "./styles";
+import { useNavigation } from  "@react-navigation/native";
 
 export type ChatListItemProps = {
     chatRoom: ChatRoom;
 }
 
+
+
 const ChatListItem = (props: ChatListItemProps) => {
     const { chatRoom } = props;
     const user = chatRoom.users[1];
+    const navigation = useNavigation();
+
+    const pressHandler = () => {
+        navigation.navigate("ChatRoom",{
+            name: user.name,
+        })
+    }
+
     return (
-        <View style={styles.container}>
-            <View style={styles.leftContainer}>
-                <Image source={{ uri: user.imageUri }} style={styles.avatar} />
+        <TouchableWithoutFeedback onPress={pressHandler}>
+            <View style={styles.container}>
+                <View style={styles.leftContainer}>
+                    <Image source={{ uri: user.imageUri }} style={styles.avatar} />
+                </View>
+                <View style={styles.textContainer}>
+                    <Text style={styles.username}>{user.name}</Text>
+                    <Text numberOfLines={2} style={styles.lastMessage}>{chatRoom.lastMessage.content}</Text>
+                </View>
+                <Text style={styles.time}>Yesterday</Text>
             </View>
-            <View style={styles.textContainer}>
-                <Text style={styles.username}>{user.name}</Text>
-                <Text numberOfLines={2}style={styles.lastMessage}>{chatRoom.lastMessage.content}</Text>
-            </View>
-            <Text style={styles.time}>Yesterday</Text>
-        </View>
+        </TouchableWithoutFeedback>
     )
 };
 
