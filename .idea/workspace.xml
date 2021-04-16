@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="833ab604-2ebe-4c2b-93be-f991a6330de9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/constants/Colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/Colors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/BottomTabNavigator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rD5pRSKcjw0JeO65x6B0kPEonf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="833ab604-2ebe-4c2b-93be-f991a6330de9" name="Default Changelist" comment="" />
+      <created>1618498002356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618498002356</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-37" y="200" width="1146" height="491" key="AVDManager" timestamp="1618508908559">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state x="-37" y="200" width="1146" height="491" key="AVDManager/0.31.1366.737/1366.0.1920.1080@0.31.1366.737" timestamp="1618508908559" />
+    <state x="258" y="35" width="1022" height="733" key="SettingsEditor" timestamp="1618498891904">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state x="258" y="35" width="1022" height="733" key="SettingsEditor/0.31.1366.737/1366.0.1920.1080@0.31.1366.737" timestamp="1618498891904" />
+    <state x="336" y="89" key="search.everywhere.popup" timestamp="1618498583843">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state x="336" y="89" key="search.everywhere.popup/0.31.1366.737/1366.0.1920.1080@0.31.1366.737" timestamp="1618498583843" />
+  </component>
+</project>
